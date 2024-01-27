@@ -41,34 +41,41 @@
             All emojis designed by <a href="https://openmoji.org/">OpenMoji</a> - the open-source emoji and icon project. 
             License: <a href="https://creativecommons.org/licenses/by-sa/4.0/#">CC BY-SA 4.0</a>.
         </div>
+
+        <h2>GitHub Repository</h2>
+        <div class="github-container">Link to the <a href="https://github.com/Moneer-Deshly/Islamic-Midnight-Calculator">GitHub Repository</a> for this project.</div>
     </div>
 </main>
 
 <style>
+.github-container{
+    font-size: 1.3rem;
+}
+
 a{
     text-decoration: underline;
     font-weight: bold;
 }
 
 .credits{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .feedback-description{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .calculation-prewords{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .calculation-description{
-    margin-left: 1.6rem;
-    font-size: 1.5rem;
+    margin-left: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .intro-description{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 h2{
