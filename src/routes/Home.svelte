@@ -119,6 +119,10 @@ function formatTime(hours, minutes) {
 
 
 <style>
+.sub-information{
+    margin-bottom: 1.4rem;
+}
+
 .wrong-input, .example, .result-container{
     font-size: 2rem;
     grid-column: 1 / -1;
