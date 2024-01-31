@@ -21,8 +21,8 @@
                 <li><b>Conversion to Minutes</b>: Both times are converted to minutes to facilitate the calculation process.</li>
                 <li><b>Order Correction</b>: If the Maghrib time is later than the Fajr time (which can occur during the night), their values are swapped to ensure accuracy.</li>
                 <li><b>Determine the Difference</b>: We calculate the total minutes between Fajr and Maghrib.</li>
-                <li><b>Find the Midpoint</b>: The difference is divided by two to locate the midpoint, which corresponds to Islamic midnight.</li>
-                <li><b>Reconvert to Time Format</b>: This midpoint is then converted back into standard hours and minutes format, providing the exact time for Islamic midnight.</li>
+                <li><b>Find the Midpoint/Third of the night</b>: Divide the difference by two for the midpoint, or split the night into thirds and add two thirds to Maghrib time.</li>
+                <li><b>Reconvert to Time Format</b>: The midpoint/last third of the night is then converted back into standard hours and minutes format, providing the exact time for Islamic midnight.</li>
             </ol>
         </div>
     
@@ -84,7 +84,7 @@ h2{
 
 h1{
     margin-bottom: 0.6rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .about-main{
